@@ -7,15 +7,22 @@ body {
   padding: 0px 0px 24px 0px;
 }
 header {
-	background: blue;
-	color: white;
-	padding: 10px;
+  background: blue;
+  color: white;
+  padding: 10px;
 
-	span {
-		margin-left: 10px;
-
-	}
+  & span {
+    margin-left: 10px;
+  }
 }
+main {
+  & img {
+    width: 95%;
+    display: block;
+    margin: auto;
+  }
+}
+
 footer {
-	color: black;
+  color: black;
 }
